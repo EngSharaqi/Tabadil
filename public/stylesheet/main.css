@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0
+}
+
+div.topar {
+	height: 130px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: #333333;
+	width: 100%;
+}
+
+div.topar > img {
+	width: 98px;
+	width: 98px;
+	margin: 0 auto;
+	display: block;
+}
+
+.imgI{
+    background-image: url('https://img1.wsimg.com/isteam/stock/11252/:/cr=t:0%25,l:0%25,w:135.79%25,h:135.79%25/rs=w:1360,h:400,cg:true,m/cr=w:1360,h:400,ax:50.8955069163186%25,ay:51.73913043478261%25');
+    width: 100%;
+    height: 500px;
+    background-size: cover
+}
+
+.carousel {
+	position: relative;
+	width: 100%;
+}
+
+
+
+.title {
+	background-color: #ff5335;
+	color: #fff;
+	width: 100%;
+	padding: 10px 15px 30px;
+}
+
+.title > h1, .title > p {
+	text-align: center;
+}
+
+.title > h1 {
+	margin-bottom: 8px;
+	padding-top: 40px;
+}
+
+.special{
+    padding-bottom: 50px
+}
+
+.aboutus {
+	text-align: center !important;
+	padding-top: 56px;
+	padding-bottom: 56px;
+	background-color: #333333;
+	width: 100%;
+}
+
+p.aboutus-sent {
+	font-size: 22px !important;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	color: rgb(169, 169, 169) !important;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.aboutus h4, .aboutus h5{
+	margin-bottom: 24px;
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto 24px;
+}
+
+.aboutus p{
+    line-height: 1.5;
+    color: rgb(164, 164, 164);
+    font-size: 16px;
+    
+}
+
+.kntktus{
+    background-color: #fff
+}
+
+input, textarea {
+	color: rgb(71, 71, 71);
+	border: 1px solid rgba(119, 119, 119, 0.5);
+	font-size: 14px;
+	padding: 15px;
+	font-family: Quicksand, sans-serif;
+	width: 100%;
+	margin-bottom: 22px;
+}
+
+form {
+	width: 55%;
+	margin: 0 auto;
+}
+
+small {
+	width: 80%;
+	text-transform: uppercase;
+	color: rgb(89, 89, 89);
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin: 0 auto;
+}
+
+small a{
+    color: #db391d;
+    text-decoration: unset
+}
+
+button {
+	padding: 20px;
+	border: 1px solid #db391d;
+	background: #fff;
+	color: #db391d;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px auto;
+}
+
+button span::before {
+	content: '';
+	width: 20px;
+	height: 1px;
+	background: #db391d;
+	display: inline-block;
+	margin-bottom: 4px;
+	margin-right: 7px;
+}
+
+button span::after {
+	content: '';
+	width: 20px;
+	height: 1px;
+	background: #db391d;
+	display: inline-block;
+	margin-bottom: 4px;
+	margin-left: 7px;
+}
+
+button:hover {
+	background: #db391d;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover span::after, button:hover span::before {
+	background: #fff;
+}
+
+.dir h4, .dir p {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.dir h4, .dir p {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.dir p{
+    color: rgb(94, 94, 94);
+    font-size: 16px
+}
+
+.row.mails .row {
+	width: 100%;
+	text-align: center;
+}
+
+.mails a {
+	color: rgb(219, 57, 29);
+	display: block;
+	text-align: center;
+	text-decoration: unset;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+
+.scoial-icons {margin: 24px auto 75px}
+
+.social a {
+	font-size: 30px;
+	padding: 25px;
+	color: #333;
+}
+
+/* map settings */
+iframe {
+	width: 100%;
+	margin-top: 40px;
+	max-height: 400px;
+}
+
+.gm-inset.gm-inset-hover-enabled {
+	display: none;
+	/* overflow: hidden; */
+}
+
+.place-card.place-card-large {
+	display: none;
+}
+
+.gm-inset {
+	display: none;
+}
+
+.gmnoprint.gm-bundled-control.gm-bundled-control-on-bottom {
+	margin: 10px;
+	user-select: none;
+	position: absolute;
+	top: 23%;
+	left: 4%;
+}
+
+
+
+
+.footer{
+    background: #333333
+}
+
+.footer h6{
+    text-align: center;
+    padding: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(169, 169, 169);
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+
+.footer a{
+    color: rgb(169, 169, 169);
+    text-decoration: unset
+}
+
+/* Map Settings */
+.gm-inset.gm-inset-hover-enabled {
+	display: none;
+}
+
+
+@media (max-width: 759px){
+    form, input, textarea {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    small {
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    button{ width: 100%}
+
+    p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media(max-width: 991px){
+    .special{
+        padding-bottom: 0px
+    }
+}
+
+.gm-inset.gm-inset-hover-enabled {
+	display: none;
+}
+
+iframe{position: relative;}
