@@ -239,14 +239,14 @@ iframe {
     background: #333333
 }
 
-.footer h6{
-    text-align: center;
-    padding: 50px;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: rgb(169, 169, 169);
-    letter-spacing: 2px;
-    margin: 0 auto;
+.footer h6 {
+	text-align: center;
+	padding: 30px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: rgb(169, 169, 169);
+	letter-spacing: 2px;
+	margin: 0 auto;
 }
 
 .footer a{
@@ -294,3 +294,20 @@ iframe {
 }
 
 iframe{position: relative;}
+
+
+.slider-img-a, .slider-img-b, .slider-img-c, .slider-img-d, .slider-img-e, .slider-img-f{
+	width: 100%;
+	height: 400px;
+	background-size: cover
+}
+
+.slider-img-a {	background-image: url('https://img1.wsimg.com/isteam/stock/11252/:/cr=t:0%25,l:0%25,w:135.79%25,h:135.79%25/rs=w:1360,h:400,cg:true,m/cr=w:1360,h:400,ax:50.8955069163186%25,ay:51.73913043478261%25') }
+.slider-img-b {	background-image: url('https://img1.wsimg.com/isteam/stock/365/:/cr=t:0%25,l:0%25,w:66.67%25,h:100%25/rs=w:1360,h:400,cg:true,m/cr=w:1360,h:400,ax:55.21739130434783%25,ay:53.47826086956522%25') }
+.slider-img-c {	background-image: url('https://img1.wsimg.com/isteam/stock/WVVjzOg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1360,h:400,cg:true,m/cr=w:1360,h:400,ax:51.73913043478261%25,ay:43.04347826086956%25') }
+.slider-img-d {	background-image: url('https://img1.wsimg.com/isteam/stock/YowxQ7Y/:/cr=t:0%25,l:0%25,w:123.97%25,h:123.97%25/rs=w:1360,h:400,cg:true,m/cr=w:1360,h:400,ax:48.53634245634138%25,ay:34.34782608695652%25') }
+.slider-img-e {	background-image: url('https://img1.wsimg.com/isteam/stock/9534/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1360,h:400,cg:true,m/cr=w:1360,h:400,ax:40.044444444444444%25,ay:48.26086956521739%25') }
+.slider-img-f {	background-image: url('https://img1.wsimg.com/isteam/stock/lbrjjWg/:/cr=t:-3.84%25,l:-3.84%25,w:107.68%25,h:107.68%25/rs=w:1360,h:400,cg:true,m/cr=w:1360,h:400,ax:41.56055547873496%25,ay:52.608695652173914%25') }
+@media(max-width: 710px){
+	.slider-img-a, .slider-img-b, .slider-img-c, .slider-img-d, .slider-img-e, .slider-img-f { height: 250px }
+}
